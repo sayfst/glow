@@ -1,0 +1,29 @@
+* {
+    padding:0px;
+    margin:0;
+    box-sizing: border-box;
+}
+.txt{
+    color:white;
+    font-family: cursive;
+}
+.button{
+    color:white;
+    background-color: black;
+    border-radius: 10px;
+    width:100px;
+    height:40px;
+}
+
+.hover:hover{
+    background-color: gray;
+    transition:200ms;
+}
+.background{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("https://th.bing.com/th/id/R.2594a218f277c327759642002955d272?rik=F2oYhTe5VIanmQ&riu=http%3a%2f%2fwww.abcworldwidestone.com%2fwp-content%2fuploads%2fBlack-slate-web.jpg&ehk=6kTBSbRyBVj5IPwToedpXrQk2xvJv%2fn%2bFhDkHns6uIc%3d&risl=&pid=ImgRaw&r=0");
+}
+
+.background *{
+    color:white;
+    font-family: cursive;
+}
